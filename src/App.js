@@ -87,7 +87,7 @@ function App() {
         <button onClick={handlePost}>Đăng Ký</button>
       </div>
 
-      <p>My account of Users</p>
+      <p>Tài khoản của người dùng </p>
       {dataUser.map((data) => {
         return (
           <div className="wrap" key={data._id}>
@@ -95,7 +95,6 @@ function App() {
             <li>{data.email}</li>
             <li>{data.password}</li>
             <div>
-              <button className="update">Cập nhật</button>
               <button
                 className="delete"
                 onClick={() => {
