@@ -91,9 +91,9 @@ function App() {
       {dataUser.map((data) => {
         return (
           <div className="wrap" key={data._id}>
-            <li>{data.username}</li>
-            <li>{data.email}</li>
-            <li>{data.password}</li>
+            <li>Username : {data.username}</li>
+            <li>Email : {data.email}</li>
+            <li>Password : {data.password}</li>
             <div>
               <button
                 className="delete"
